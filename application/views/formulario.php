@@ -3,10 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+  <meta charset="utf-8">
+  <title>Welcome to CodeIgniter</title>
 
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/estilos.css">
 
 </head>
 <body>
@@ -20,10 +20,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <li class="tab" ><img src="https://i.imgur.com/LCCJ06E.png" alt="" class="icon"/></li>
     </ul>
     
-    <?php echo form_open("welcome/validar")?>
-      <input type="text" placeholder="primer nombre" class="textbox" name="nombre1" />
-      <input type="text" placeholder="Apellido" class="textbox" name="apellido1/>
-      <input type="text" placeholder="Direccion de Email" class="textbox" name="email1" />
+     <?php echo form_open("Welcome/validar") ?>
+      <input type="text" placeholder="primer nombre"  class="textbox" name="nombres" />
+      <input type="text" placeholder="Apellido" class="textbox"  name="apellido1" />
+      <input type="text" placeholder="Email" class="textbox" name="ingresatucorreo" />
       <input type="submit" value="Next" class="button" />
     <?php echo form_close() ?>
   </div>
